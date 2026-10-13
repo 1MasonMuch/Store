@@ -171,4 +171,7 @@ for (let i = 0; i < planes.length; i++) {
   console.log(planes[i]);
 }
 
-function buy(cart) {}
+function buy(cart, item) {
+  let price = 0;
+  //for(let p = 0; p < cart.length; p++)
+}
