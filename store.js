@@ -173,5 +173,4 @@ for (let i = 0; i < planes.length; i++) {
 
 function buy(cart, item) {
   let price = 0;
-  //for(let p = 0; p < cart.length; p++)
 }
