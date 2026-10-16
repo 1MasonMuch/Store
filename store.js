@@ -171,6 +171,10 @@ for (let i = 0; i < planes.length; i++) {
   console.log(planes[i]);
 }
 
-function buy(cart, item) {
-  let price = 0;
+function add(thing) {
+  let cart = [];
+  for (let y = 0; i < planes.length; i++)
+    if ((planes[i].item = thing)) {
+      cart.push(plane[i].model);
+    }
 }
