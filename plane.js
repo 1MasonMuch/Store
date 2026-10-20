@@ -217,101 +217,29 @@ for (let i = 0; i < planes.length; i++) {
   console.log(planes[i]);
 }
 
-function add(thing) {
-  let cart = [];
+const discount_codes = [
+  { code: "Hi", discount: 0.1 },
+  { code: "WHALEN", discount: 0.25 },
+  { code: "plen", discount: 0.25 },
+];
+
+let cart = [];
+let total = 0;
+
+function add_cart(thing) {
   for (let y = 0; i < planes.length; i++)
     if ((planes[i].item = thing)) {
-      cart.push(plane[i].model);
+      cart.push(planes[i].model, planes[i].item, planes[i].price);
     }
 }
 
-const gridContainer = document.getElementById("plane-grid");
-let inquiryCounter = 0;
-
-function renderPlanes(planeArray) {
-  // Clear existing items in grid
-  gridContainer.innerHTML = "";
-
-  // If search/filter returns empty
-  if (planeArray.length === 0) {
-    gridContainer.innerHTML = `<p style="grid-column: 1/-1; color: var(--text-muted); text-align: center; padding: 3rem;">NO AIRCRAFT FOUND MATCHING YOUR CRITERIA.</p>`;
-    return;
-  }
-
-  // Iterate over planes and append card markup
-  planeArray.forEach((plane) => {
-    const card = document.createElement("div");
-    card.classList.add("plane-card");
-
-    // Format categories into pill badges
-    const categoryBadges = plane.category
-      .map((cat) => `<span class="badge">${cat}</span>`)
-      .join(" ");
-
-    // Format pricing to currency string
-    const formattedPrice = new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
-      maximumFractionDigits: 0,
-    }).format(plane.price);
-
-    card.innerHTML = `
-      <div class="image-container">
-        <img src="${plane.image}" alt="${plane.manufacturer} ${plane.model}" loading="lazy" />
-      </div>
-      <div class="plane-info">
-        <div class="card-header-meta">
-          <span>${plane.manufacturer}</span>
-          <span>REF #${String(plane.item).padStart(2, "0")}</span>
-        </div>
-        <h3>${plane.model}</h3>
-        <p class="price">${formattedPrice}</p>
-        <div class="categories">${categoryBadges}</div>
-        <button class="inquire-btn" onclick="handleInquiry('${plane.model}')">REQUEST SPECIFICATIONS</button>
-      </div>
-    `;
-
-    gridContainer.appendChild(card);
-  });
+function subtract_cart(thing) {
+  for (let y = 0; i < cart.length; i++)
+    if ((cart[i].item = thing)) {
+      cart.pop(cart[i]);
+    }
 }
 
-/* ==========================================================================
-   3. INTERACTIVE CONTROLS: Filtering & Searching Logic
-   ========================================================================== */
-const searchInput = document.getElementById("search-input");
-const manufacturerFilter = document.getElementById("manufacturer-filter");
-
-function filterData() {
-  const query = searchInput.value.toLowerCase();
-  const selectedManufacturer = manufacturerFilter.value;
-
-  const filtered = planes.filter((plane) => {
-    const matchesSearch =
-      plane.model.toLowerCase().includes(query) ||
-      plane.manufacturer.toLowerCase().includes(query);
-
-    const matchesManufacturer =
-      selectedManufacturer === "all" ||
-      plane.manufacturer === selectedManufacturer;
-
-    return matchesSearch && matchesManufacturer;
-  });
-
-  renderPlanes(filtered);
+function apply_discount(code_input) {
+  for (let i = 0; i < discount_codes.length; i++) {}
 }
-
-// Attach Event Listeners
-searchInput.addEventListener("input", filterData);
-manufacturerFilter.addEventListener("change", filterData);
-
-// Inquiry Counter Button Handler
-function handleInquiry(modelName) {
-  inquiryCounter++;
-  document.getElementById("inquiry-count").innerText = inquiryCounter;
-  alert(
-    `Inquiry added for ${modelName}. Total active inquiries: ${inquiryCounter}`,
-  );
-}
-
-/* Initial Render on Page Load */
-renderPlanes(planes);
