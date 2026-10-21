@@ -229,7 +229,8 @@ let total = 0;
 function add_cart(thing) {
   for (let y = 0; i < planes.length; i++)
     if ((planes[i].item = thing)) {
-      cart.push(planes[i].model, planes[i].item, planes[i].price);
+      cart.push(planes[i].model, planes[i].item);
+      total = total + planes[i].price;
     }
 }
 
@@ -237,9 +238,17 @@ function subtract_cart(thing) {
   for (let y = 0; i < cart.length; i++)
     if ((cart[i].item = thing)) {
       cart.pop(cart[i]);
+      total = total - planes[i].price;
     }
 }
 
 function apply_discount(code_input) {
   for (let i = 0; i < discount_codes.length; i++) {}
+  if ((code_input = discount_codes[i].code)) {
+    total = total * discount_codes[i].discount;
+  }
+}
+
+function filter(filter_by) {
+  const results = planes.filter((item) => item.category === filter_by);
 }
