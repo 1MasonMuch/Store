@@ -1,0 +1,35 @@
+html, body, *{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.011em; /* Gives it that tight, technical modern editorial feel */
+  background-color: black;
+}
+
+h1, h2, h3, .navigate {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.025em; /* Match Anduril's display typography density */
+}
+header{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+header a {
+    text-decoration: none;
+    color: #ffff;
+  cursor: pointer;
+  text-align: center;
+  font-size: 5rem;
+  padding: 3rem;
+  
+}
+header a:hover{
+    opacity: 0.5
+    
+}
