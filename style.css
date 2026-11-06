@@ -3,6 +3,10 @@ html, body, *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -19,17 +23,35 @@ header{
     margin: 0;
     display: flex;
     justify-content: space-around;
+    background-color: #131212;
 }
 header a {
     text-decoration: none;
     color: #ffff;
   cursor: pointer;
   text-align: center;
-  font-size: 5rem;
-  padding: 3rem;
+  font-size: 2rem;
+  padding: 2rem;
   
 }
 header a:hover{
     opacity: 0.5
     
+}
+.Top {
+  display: flex;
+  justify-content: center; /* Pushes the video to the right */
+  width: 100%;               /* Ensures the container spans the screen */
+  
+}
+
+video {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+h1{
+  font-size: 30rem;
+  color:  #ffff;
 }
