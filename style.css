@@ -42,7 +42,8 @@ header a:hover{
   display: flex;
   justify-content: center; /* Pushes the video to the right */
   width: 100%;               /* Ensures the container spans the screen */
-  
+  background-color: #9BA4B3;
+  padding: 2rem;
 }
 
 video {
@@ -54,6 +55,10 @@ video {
   border-radius: 3.5rem;
 }
 h1{
-  font-size: 30rem;
+  font-size: 20rem;
   color:  #ffff;
+}
+p {
+  color: #ffff;
+  font-size: 5rem;
 }
