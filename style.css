@@ -38,27 +38,60 @@ header a:hover{
     opacity: 0.5
     
 }
-.Top {
+.main-content {
   display: flex;
-  justify-content: center; /* Pushes the video to the right */
-  width: 100%;               /* Ensures the container spans the screen */
-  background-color: black;
+  align-items: center;
+  justify-content: space-between;
   padding: 2rem;
+  background-color: #131212;
+  width: 100%;
+  box-sizing: border-box;
+  transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1),
+              background-color 1s ease,
+              border-color 1s ease,
+              box-shadow 1s ease,
+              color 1s ease; /* Added for smooth text transition */
 }
 
-video {
-  width: 40%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  padding: 3rem;
-  border-radius: 3.5rem;
+.ABOUT {
+    width: 50%;
 }
-h1{
-  font-size: 20rem;
-  color:  #ffff;
+
+.Top {
+    width: 45%;
 }
+
+.Top video {
+    width: 100%;
+    height: auto;
+    display: block;
+   
+}
+
+h1 {
+    font-size: 10rem; /* Adjusted from 20rem so it fits nicely next to the video */
+    color: #ffff;
+}
+
 p {
-  color: #ffff;
-  font-size: 3rem;
+    color: #ffff;
+    font-size: 3rem; /* Adjusted for better readability */
+}
+
+/* Base styling for the card */
+
+
+/* The Hover State */
+/* The Hover State */
+.main-content:hover {
+  
+  background-color: #fff;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.7);
+}
+
+/* Force text elements inside main-content to turn black on hover */
+.main-content:hover h1,
+.main-content:hover p {
+  color: black;
+  transition: color 0.3s ease;
 }
