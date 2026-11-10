@@ -252,3 +252,8 @@ function apply_discount(code_input) {
 function filter(filter_by) {
   const results = planes.filter((item) => item.category === filter_by);
 }
+
+function inject(item) {
+  const container = document.querySelector(".container");
+  container.insertAdjacentHTML("beforeend");
+}

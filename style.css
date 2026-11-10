@@ -95,3 +95,29 @@ p {
   color: black;
   transition: color 0.3s ease;
 }
+
+
+.container {
+  padding: 2rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #131212;
+  width: 100%;
+
+}
+
+.card h2 {
+    font-size: 5rem;
+    color: #ffff;
+
+  }
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  }
