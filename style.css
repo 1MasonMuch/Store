@@ -97,27 +97,57 @@ p {
 }
 
 
-.container {
-  padding: 2rem;
-}
-.card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem;
-  background-color: #131212;
-  width: 100%;
 
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns: Left for text, Right for image */
+    grid-template-rows: auto auto;    /* Rows for h2 and p */
+    align-items: center;
+    padding: 2rem;
+    background-color: #131212;
+    width: 100vw;
+    margin: 4rem auto;
+    gap: 2rem;
+     transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1),
+              background-color 1s ease,
+              border-color 1s ease,
+              box-shadow 1s ease,
+              color 1s ease; /* Added for smooth text transition */
 }
 
 .card h2 {
-    font-size: 5rem;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 8rem;
     color: #ffff;
+}
 
-  }
+.card p {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 2rem;
+    color: #ffff;
+}
 
 .card img {
-  width: 100%;
-  height: auto;
-  display: block;
-  }
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    justify-self: end;
+    width: 48%; /* Increase this value (e.g., 48% or 50%) to make it larger */
+    height: auto;
+
+}
+
+.card:hover {
+  
+  background-color: #fff;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.7);
+}
+
+/* Force text elements inside main-content to turn black on hover */
+.card:hover h2,
+.card:hover p {
+  color: black;
+  transition: color 0.3s ease;
+}
+

@@ -8,6 +8,8 @@ const planes = [
     category: ["Regional", "Narrowbody"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSKu6mQt4HBHZ-F_KvKu3TH2N2bDoMMQAUmOzMV6qWQirUjrm4Hdddm3BwgilgSZl32BV92_m4as-ddnFs",
+    description:
+      "A fuel-efficient regional jet designed for short-to-medium-haul routes. It features wide cabins and large windows for enhanced passenger comfort.",
   },
   {
     item: 2,
@@ -17,6 +19,8 @@ const planes = [
     category: ["Regional", "Narrowbody"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQPoM1PqC8-NuAymw5eW0gL2R_1NA5qLZpgRWSoIKxFGinVLJ_EbcZZ7JGpsEWFGQ49BV8mrMphG9ouezI",
+    description:
+      "A stretched variant of the A220 offering higher seating capacity and extended range. It delivers superior economics for high-density regional operations.",
   },
   {
     item: 3,
@@ -26,6 +30,8 @@ const planes = [
     category: ["Narrowbody"],
     image:
       "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSS_-71mHXejrKofSA58RgR56B44VorgP3hY5Xefef5yuiyxEEX25uqIebe66D3V_5YCzfRkE05DCWtc5Q",
+    description:
+      "The smallest member of the A320neo family, optimized for hot-and-high airfields. It incorporates advanced engines to significantly lower fuel burn.",
   },
   {
     item: 4,
@@ -35,6 +41,8 @@ const planes = [
     category: ["Narrowbody"],
     image:
       "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSoFnORdgnWqVll7o4oeWSi50mKqEIMeb1Z159gxsHqPAPvOL8heKfqXYWyAzFfh_ZlDz4yZ6JrYJnugbc",
+    description:
+      "One of the world's most popular single-aisle airliners, known for its exceptional fuel efficiency. It features modern sharklets and updated powerplant options.",
   },
   {
     item: 5,
@@ -44,6 +52,8 @@ const planes = [
     category: ["Narrowbody"],
     image:
       "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRwVZh0sPJr3FMcS71Z2SJT9_887eUa58WP1uVSDGxkpzEjrFEkoTq7VO1k4LOVqXrHhcsoOITt3uo4HpY",
+    description:
+      "A stretched fuselage version of the A320neo capable of carrying more passengers on transcontinental routes. It combines single-aisle operating costs with widebody-like capacity.",
   },
   {
     item: 6,
@@ -53,6 +63,8 @@ const planes = [
     category: ["Narrowbody", "Long-haul"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR0Fu_xsIE3dpfj7gXsxtMCuDzVt1TT0usFj4a0KPWv2oFGg97fAZqeZv5FCumpkhRSWglDgtOXiY8kOk4",
+    description:
+      "An extra-long range narrowbody designed to open up unprecedented direct trans-Atlantic city pairs. It features a permanent rear center fuel tank for extended reach.",
   },
   {
     item: 7,
@@ -62,6 +74,8 @@ const planes = [
     category: ["Narrowbody"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRz_wPc5c2813Qt-L9a5zPQ1NXfG9jyKYall9I7RfQkIUzRDPEdzxjYZ0JVmJDY4GJom803Jbur7jmU6J0",
+    description:
+      "The smallest variant in Boeing's 737 MAX family, tailored for low-density, long-range regional routes. It offers improved efficiency over legacy 737 models.",
   },
   {
     item: 8,
@@ -71,6 +85,8 @@ const planes = [
     category: ["Narrowbody"],
     image:
       "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSe52nOwm9cxd7PYXg4YOlh2oNCEUE3b73Ll2eU4p8_e73_C8ZYMJ9GxvGedWKZ25OPHGrV9NmTfgXGmBs",
+    description:
+      "The core workhorse of Boeing's single-aisle fleet, competing directly with the A320neo. It incorporates advanced CFM LEAP-1B engines and distinctive split-tip winglets.",
   },
   {
     item: 9,
@@ -80,6 +96,8 @@ const planes = [
     category: ["Narrowbody"],
     image:
       "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRvqAxyrwx28wlNRJUrEpvr0g6T2trNOdLNQlD8THSCnWiHdKgn3nH-jstadmO_wWc8-h1ivN9mI0xG57Y",
+    description:
+      "A larger-capacity variant of the 737 MAX series built for higher-density domestic routes. It provides airlines with increased seating capacity and lower per-seat operating costs.",
   },
   {
     item: 10,
@@ -89,6 +107,8 @@ const planes = [
     category: ["Narrowbody"],
     image:
       "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSSBLAFwqYyTkgCK9Kb89ewS6G2q0sfsHSwGcgOxrlYXNw85E_-0FRD8Ok4mnvyIvBSIW80iJlZVBgo_2k",
+    description:
+      "The largest single-aisle aircraft produced by Boeing, stretching capacity to match competitive large narrowbodies. It features a modified semi-levered landing gear design.",
   },
 
   // --- WIDEBODY & LONG-HAUL ---
@@ -100,6 +120,8 @@ const planes = [
     category: ["Widebody", "Long-haul"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQLCGyO_vI4mU0QpqXxGsPl8RD3k4RsKoDMnfLY219A8X8_iNGsnfOu93wEHtBw-AJ1veVC4zuGwbbT7Tg",
+    description:
+      "A lower-capacity, ultra-long-range variant of the popular A330neo widebody family. It shares high commonality with its larger sibling while servicing niche long-haul routes.",
   },
   {
     item: 12,
@@ -109,6 +131,8 @@ const planes = [
     category: ["Widebody", "Long-haul"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcT-Xde1iRZeNc3fMKpvTwGNnaDjYFCFzyAdjKH32QwW7maN7IL37gLE_xly40S7l9h1SRFjzxPq9jz_qu0",
+    description:
+      "A modern widebody featuring Rolls-Royce Trent 7000 engines and aerodynamic enhancements. It provides highly efficient transcontinental and intercontinental transport.",
   },
   {
     item: 13,
@@ -118,6 +142,8 @@ const planes = [
     category: ["Widebody", "Long-haul"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSWz0qrHSkSMKkf3SVsVvagfSI81vQsJK9iRdD4W4NycSOGoeiE4wBKlFPWYlqNfcIFBI78hEewgrsTUmI",
+    description:
+      "A modern composite-material widebody built for ultra-long-haul operational efficiency. Its distinct curved cockpit windows and quiet cabin make it a passenger favorite.",
   },
   {
     item: 14,
@@ -127,6 +153,8 @@ const planes = [
     category: ["Widebody", "Long-haul"],
     image:
       "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSA8iequxfpgcPFFdHSgm7Q8cAxboaFR0dZRSWJDCpSrsMxqzOeUpTociYkRTIlOA8geSiFnWX5LoQh6Iw",
+    description:
+      "The largest variant of the A350 family, offering high passenger capacity on global trunk routes. It features powerful Trent XWB-97 engines and a six-wheel main landing gear.",
   },
   {
     item: 15,
@@ -136,6 +164,8 @@ const planes = [
     category: ["Widebody", "Long-haul"],
     image:
       "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRUf9bzuC78Wgl6Zwo_BevHotg4O3DP4HwB9-EknwHP6hROMedMK0SxXom558yDfEuNWkn_KOzMlKPl4i4",
+    description:
+      "The baseline model of Boeing's revolutionary composite-body long-haul family. It pioneered point-to-point global travel with exceptional fuel economy and cabin pressure comfort.",
   },
   {
     item: 16,
@@ -145,6 +175,8 @@ const planes = [
     category: ["Widebody", "Long-haul"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ-w-283tWj3HuDSPBdyL_3jInG060FlM3FDPSUseIhfQp71z0qEHnMXG07g5HeHOsh9V-OpWGoYgz6_w8",
+    description:
+      "A stretched, highly versatile variant of the Dreamliner series used extensively by international carriers. It balances long range with large payload flexibility.",
   },
   {
     item: 17,
@@ -154,6 +186,8 @@ const planes = [
     category: ["Widebody", "Long-haul"],
     image:
       "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSsA37uTEfjdvSMmg_1OvhFNJgFxn2o5KneUqnBEGwlPFxTc2-nCc8KEoEYTj0q2njmRmGq9NqfwXB4dBk",
+    description:
+      "The largest member of the 787 family, optimized for high-density regional and medium-haul widebody routes. It maximizes passenger volume while retaining high composite fuel efficiency.",
   },
   {
     item: 18,
@@ -163,6 +197,8 @@ const planes = [
     category: ["Widebody", "Long-haul"],
     image:
       "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSmSEXEeyq4UTVyWevYjSpw7V4h6WLdmSFNEVNG8hWl3fLJstOJ3fK13RByFKsykIFUaUp8jjRtXep0qXk",
+    description:
+      "An ultra-long-range widebody designed to connect virtually any two cities on Earth non-stop. It incorporates folding wingtips to fit standard airport gates.",
   },
   {
     item: 19,
@@ -172,6 +208,8 @@ const planes = [
     category: ["Widebody", "Long-haul"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRFlTdNnJ0nINtPlu44Rj5vVzDR0kV6qfjkTTXIVnbHzYuEi4djUDvqmkAfKhwjRNGW7OW6GscfTO3Fa38",
+    description:
+      "The world's largest twin-engine jetliner, featuring massive GE9X engines and a spacious cabin architecture. It serves as the flagship high-capacity long-haul aircraft for Boeing.",
   },
 
   // --- FREIGHTER & CARGO ---
@@ -183,6 +221,8 @@ const planes = [
     category: ["Cargo", "Freighter"],
     image:
       "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRFx1n4y8tuP2RIoInR93HSBJa5ivZAbo-bYN8650dYNs55FhHlGGOIKOyv29X3yVhuMFJCqUYmHx2Ctyg",
+    description:
+      "A mid-size dedicated cargo aircraft derived from the proven A330-200 passenger platform. It features a versatile main-deck loading system for global freight logistics.",
   },
   {
     item: 21,
@@ -192,6 +232,8 @@ const planes = [
     category: ["Cargo", "Freighter"],
     image:
       "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSrHjkbwjRtomamR_yKvuXb-BqeSmnvEYlR0z6AG7AMGx5_RUkBvIsLTAMoC5saRmhzCMJMlkcnIU8RlRU",
+    description:
+      "A dependable medium-widebody freighter widely utilized by major global express package carriers. It can carry standard ULD containers across domestic and regional routes.",
   },
   {
     item: 22,
@@ -201,6 +243,8 @@ const planes = [
     category: ["Cargo", "Freighter"],
     image:
       "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRU1s5MNv6vSUN7XoahuDCHtHz8GQUzk0n81Uljk5up_fGM_n-N45_3rhKqxTMgA8RcgiAFELA1JWRb6yg",
+    description:
+      "A long-range twin-engine freighter capable of hauling heavy cargo payloads across oceans. It combines exceptional fuel range with high-volume cargo capability.",
   },
   {
     item: 23,
@@ -210,6 +254,8 @@ const planes = [
     category: ["Cargo", "Freighter"],
     image:
       "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRqwnsei7fyWrdwl5TTRFm-HFP6DEb4SgBVESCu5UKoutV6n87k6fLAvOrF6mVYEaB_CA3AXs_TOQWQDuA",
+    description:
+      "An advanced next-generation cargo variant based on the 777X architecture. It provides superior payload capacity and lower operating trip costs than preceding freighters.",
   },
 ];
 
