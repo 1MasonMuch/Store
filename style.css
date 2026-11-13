@@ -137,7 +137,12 @@ p {
     height: auto;
 
 }
-
+.card button{
+  font-size: 2rem;
+  width: 10rem;
+  background-color: #131212;
+  border-color: #131212;
+}
 .card:hover {
   
   background-color: #fff;
