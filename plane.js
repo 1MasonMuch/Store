@@ -299,7 +299,35 @@ function filter(filter_by) {
   const results = planes.filter((item) => item.category === filter_by);
 }
 
+function formatPrice(price) {
+  if (price >= 1e9) {
+    return "$" + (price / 1e9).toFixed(1) + "B";
+  }
+  if (price >= 1e6) {
+    return "$" + (price / 1e6).toFixed(1) + "M";
+  }
+  if (price >= 1e3) {
+    return "$" + (price / 1e3).toFixed(1) + "K";
+  }
+  return "$" + price.toLocaleString();
+}
+
 function inject(item) {
   const container = document.querySelector(".container");
-  container.insertAdjacentHTML("beforeend");
+  container.insertAdjacentHTML(
+    "beforeend",
+    `<div class="card">
+            <h2 class="card-header">${item.model}</h2>
+            <img src="${item.image}" alt="" />
+            <p class="desc">${item.description}</p>
+            <button>
+                <span>ADD TO CART</span>
+            </button>
+            <p class="price">${formatPrice(item.price)}</p>
+        </div>`,
+  );
+}
+
+for (let i = 0; i < planes.length; i++) {
+  inject(planes[i], i);
 }
