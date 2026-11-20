@@ -7,7 +7,7 @@ const planes = [
     price: 81000000,
     category: ["Regional", "Narrowbody"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSKu6mQt4HBHZ-F_KvKu3TH2N2bDoMMQAUmOzMV6qWQirUjrm4Hdddm3BwgilgSZl32BV92_m4as-ddnFs",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Delta_Airbus_A220_-100_N116DU_DSC_0047.jpg?width=800",
     description:
       "A fuel-efficient regional jet designed for short-to-medium-haul routes. It features wide cabins and large windows for enhanced passenger comfort.",
   },
@@ -18,7 +18,7 @@ const planes = [
     price: 91500000,
     category: ["Regional", "Narrowbody"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQPoM1PqC8-NuAymw5eW0gL2R_1NA5qLZpgRWSoIKxFGinVLJ_EbcZZ7JGpsEWFGQ49BV8mrMphG9ouezI",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A220-300.jpg?width=800",
     description:
       "A stretched variant of the A220 offering higher seating capacity and extended range. It delivers superior economics for high-density regional operations.",
   },
@@ -29,7 +29,7 @@ const planes = [
     price: 101500000,
     category: ["Narrowbody"],
     image:
-      "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSS_-71mHXejrKofSA58RgR56B44VorgP3hY5Xefef5yuiyxEEX25uqIebe66D3V_5YCzfRkE05DCWtc5Q",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A319-151N,_Airbus_Industrie_JP9105933.jpg?width=800",
     description:
       "The smallest member of the A320neo family, optimized for hot-and-high airfields. It incorporates advanced engines to significantly lower fuel burn.",
   },
@@ -40,7 +40,7 @@ const planes = [
     price: 110600000,
     category: ["Narrowbody"],
     image:
-      "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSoFnORdgnWqVll7o4oeWSi50mKqEIMeb1Z159gxsHqPAPvOL8heKfqXYWyAzFfh_ZlDz4yZ6JrYJnugbc",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A320neo_front_view.jpg?width=800",
     description:
       "One of the world's most popular single-aisle airliners, known for its exceptional fuel efficiency. It features modern sharklets and updated powerplant options.",
   },
@@ -51,7 +51,7 @@ const planes = [
     price: 129500000,
     category: ["Narrowbody"],
     image:
-      "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRwVZh0sPJr3FMcS71Z2SJT9_887eUa58WP1uVSDGxkpzEjrFEkoTq7VO1k4LOVqXrHhcsoOITt3uo4HpY",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A321neo_(35121126000).jpg?width=800",
     description:
       "A stretched fuselage version of the A320neo capable of carrying more passengers on transcontinental routes. It combines single-aisle operating costs with widebody-like capacity.",
   },
@@ -62,7 +62,7 @@ const planes = [
     price: 142000000,
     category: ["Narrowbody", "Long-haul"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR0Fu_xsIE3dpfj7gXsxtMCuDzVt1TT0usFj4a0KPWv2oFGg97fAZqeZv5FCumpkhRSWglDgtOXiY8kOk4",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Aer_Lingus_Airbus_A321XLR_EI-XLR_MD1.jpg?width=800",
     description:
       "An extra-long range narrowbody designed to open up unprecedented direct trans-Atlantic city pairs. It features a permanent rear center fuel tank for extended reach.",
   },
@@ -73,7 +73,7 @@ const planes = [
     price: 99700000,
     category: ["Narrowbody"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRz_wPc5c2813Qt-L9a5zPQ1NXfG9jyKYall9I7RfQkIUzRDPEdzxjYZ0JVmJDY4GJom803Jbur7jmU6J0",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_Company,_N7201S,_Boeing_737-7_MAX_(30416417438).jpg?width=800",
     description:
       "The smallest variant in Boeing's 737 MAX family, tailored for low-density, long-range regional routes. It offers improved efficiency over legacy 737 models.",
   },
@@ -84,7 +84,7 @@ const planes = [
     price: 121600000,
     category: ["Narrowbody"],
     image:
-      "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSe52nOwm9cxd7PYXg4YOlh2oNCEUE3b73Ll2eU4p8_e73_C8ZYMJ9GxvGedWKZ25OPHGrV9NmTfgXGmBs",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/N8707P_Southwest_Boeing_737_MAX-8.jpg?width=800",
     description:
       "The core workhorse of Boeing's single-aisle fleet, competing directly with the A320neo. It incorporates advanced CFM LEAP-1B engines and distinctive split-tip winglets.",
   },
@@ -95,7 +95,7 @@ const planes = [
     price: 128900000,
     category: ["Narrowbody"],
     image:
-      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRvqAxyrwx28wlNRJUrEpvr0g6T2trNOdLNQlD8THSCnWiHdKgn3nH-jstadmO_wWc8-h1ivN9mI0xG57Y",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/United_Airlines_Boeing_737-9_MAX_AN5165061.jpg?width=800",
     description:
       "A larger-capacity variant of the 737 MAX series built for higher-density domestic routes. It provides airlines with increased seating capacity and lower per-seat operating costs.",
   },
@@ -106,7 +106,7 @@ const planes = [
     price: 134900000,
     category: ["Narrowbody"],
     image:
-      "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSSBLAFwqYyTkgCK9Kb89ewS6G2q0sfsHSwGcgOxrlYXNw85E_-0FRD8Ok4mnvyIvBSIW80iJlZVBgo_2k",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/737_MAX_10_Roll_Out_(Nov_2019)_-_004.jpg?width=800",
     description:
       "The largest single-aisle aircraft produced by Boeing, stretching capacity to match competitive large narrowbodies. It features a modified semi-levered landing gear design.",
   },
@@ -119,7 +119,7 @@ const planes = [
     price: 259900000,
     category: ["Widebody", "Long-haul"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQLCGyO_vI4mU0QpqXxGsPl8RD3k4RsKoDMnfLY219A8X8_iNGsnfOu93wEHtBw-AJ1veVC4zuGwbbT7Tg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/KUWAIT_AIRWAYS_AIRBUS_A330-800_9K-APG_(52892253095).jpg?width=800",
     description:
       "A lower-capacity, ultra-long-range variant of the popular A330neo widebody family. It shares high commonality with its larger sibling while servicing niche long-haul routes.",
   },
@@ -130,7 +130,7 @@ const planes = [
     price: 296400000,
     category: ["Widebody", "Long-haul"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcT-Xde1iRZeNc3fMKpvTwGNnaDjYFCFzyAdjKH32QwW7maN7IL37gLE_xly40S7l9h1SRFjzxPq9jz_qu0",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A330-900.jpg?width=800",
     description:
       "A modern widebody featuring Rolls-Royce Trent 7000 engines and aerodynamic enhancements. It provides highly efficient transcontinental and intercontinental transport.",
   },
@@ -141,7 +141,7 @@ const planes = [
     price: 317400000,
     category: ["Widebody", "Long-haul"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSWz0qrHSkSMKkf3SVsVvagfSI81vQsJK9iRdD4W4NycSOGoeiE4wBKlFPWYlqNfcIFBI78hEewgrsTUmI",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/A350-900_-_HB-IHF_from_Edelweiss.jpg?width=800",
     description:
       "A modern composite-material widebody built for ultra-long-haul operational efficiency. Its distinct curved cockpit windows and quiet cabin make it a passenger favorite.",
   },
@@ -152,7 +152,7 @@ const planes = [
     price: 366500000,
     category: ["Widebody", "Long-haul"],
     image:
-      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSA8iequxfpgcPFFdHSgm7Q8cAxboaFR0dZRSWJDCpSrsMxqzOeUpTociYkRTIlOA8geSiFnWX5LoQh6Iw",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A350-1000_(35340566641).jpg?width=800",
     description:
       "The largest variant of the A350 family, offering high passenger capacity on global trunk routes. It features powerful Trent XWB-97 engines and a six-wheel main landing gear.",
   },
@@ -163,7 +163,7 @@ const planes = [
     price: 248300000,
     category: ["Widebody", "Long-haul"],
     image:
-      "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRUf9bzuC78Wgl6Zwo_BevHotg4O3DP4HwB9-EknwHP6hROMedMK0SxXom558yDfEuNWkn_KOzMlKPl4i4",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_787-8_Dreamliner,_Boeing_Company_JP7434698.jpg?width=800",
     description:
       "The baseline model of Boeing's revolutionary composite-body long-haul family. It pioneered point-to-point global travel with exceptional fuel economy and cabin pressure comfort.",
   },
@@ -174,7 +174,7 @@ const planes = [
     price: 292500000,
     category: ["Widebody", "Long-haul"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ-w-283tWj3HuDSPBdyL_3jInG060FlM3FDPSUseIhfQp71z0qEHnMXG07g5HeHOsh9V-OpWGoYgz6_w8",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_787-9_%E2%80%98VH-ZNA%E2%80%99_QANTAS.jpg?width=800",
     description:
       "A stretched, highly versatile variant of the Dreamliner series used extensively by international carriers. It balances long range with large payload flexibility.",
   },
@@ -185,7 +185,7 @@ const planes = [
     price: 338400000,
     category: ["Widebody", "Long-haul"],
     image:
-      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSsA37uTEfjdvSMmg_1OvhFNJgFxn2o5KneUqnBEGwlPFxTc2-nCc8KEoEYTj0q2njmRmGq9NqfwXB4dBk",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_787-10_Dreamliner_-_N12006_-_United_Airlines.jpg?width=800",
     description:
       "The largest member of the 787 family, optimized for high-density regional and medium-haul widebody routes. It maximizes passenger volume while retaining high composite fuel efficiency.",
   },
@@ -196,7 +196,7 @@ const planes = [
     price: 410200000,
     category: ["Widebody", "Long-haul"],
     image:
-      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSmSEXEeyq4UTVyWevYjSpw7V4h6WLdmSFNEVNG8hWl3fLJstOJ3fK13RByFKsykIFUaUp8jjRtXep0qXk",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/777X_Roll-Out_(40407373023)_(cropped).jpg?width=800",
     description:
       "An ultra-long-range widebody designed to connect virtually any two cities on Earth non-stop. It incorporates folding wingtips to fit standard airport gates.",
   },
@@ -207,7 +207,7 @@ const planes = [
     price: 442200000,
     category: ["Widebody", "Long-haul"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRFlTdNnJ0nINtPlu44Rj5vVzDR0kV6qfjkTTXIVnbHzYuEi4djUDvqmkAfKhwjRNGW7OW6GscfTO3Fa38",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_777-9_front_view.jpg?width=800",
     description:
       "The world's largest twin-engine jetliner, featuring massive GE9X engines and a spacious cabin architecture. It serves as the flagship high-capacity long-haul aircraft for Boeing.",
   },
@@ -220,7 +220,7 @@ const planes = [
     price: 241700000,
     category: ["Cargo", "Freighter"],
     image:
-      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRFx1n4y8tuP2RIoInR93HSBJa5ivZAbo-bYN8650dYNs55FhHlGGOIKOyv29X3yVhuMFJCqUYmHx2Ctyg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A330-200F.jpg?width=800",
     description:
       "A mid-size dedicated cargo aircraft derived from the proven A330-200 passenger platform. It features a versatile main-deck loading system for global freight logistics.",
   },
@@ -231,7 +231,7 @@ const planes = [
     price: 220300000,
     category: ["Cargo", "Freighter"],
     image:
-      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSrHjkbwjRtomamR_yKvuXb-BqeSmnvEYlR0z6AG7AMGx5_RUkBvIsLTAMoC5saRmhzCMJMlkcnIU8RlRU",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_767-300F_of_UPS_Airlines_at_Los_Angeles_International_Airport_(2).jpg?width=800",
     description:
       "A dependable medium-widebody freighter widely utilized by major global express package carriers. It can carry standard ULD containers across domestic and regional routes.",
   },
@@ -242,7 +242,7 @@ const planes = [
     price: 352300000,
     category: ["Cargo", "Freighter"],
     image:
-      "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRU1s5MNv6vSUN7XoahuDCHtHz8GQUzk0n81Uljk5up_fGM_n-N45_3rhKqxTMgA8RcgiAFELA1JWRb6yg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_777F_Fedex_(19218217653).jpg?width=800",
     description:
       "A long-range twin-engine freighter capable of hauling heavy cargo payloads across oceans. It combines exceptional fuel range with high-volume cargo capability.",
   },
@@ -253,7 +253,7 @@ const planes = [
     price: 410000000,
     category: ["Cargo", "Freighter"],
     image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRqwnsei7fyWrdwl5TTRFm-HFP6DEb4SgBVESCu5UKoutV6n87k6fLAvOrF6mVYEaB_CA3AXs_TOQWQDuA",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_777X_at_Dubai_Airshow_2021.jpg?width=800",
     description:
       "An advanced next-generation cargo variant based on the 777X architecture. It provides superior payload capacity and lower operating trip costs than preceding freighters.",
   },
