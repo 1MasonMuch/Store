@@ -1,5 +1,5 @@
 const planes = [
-  // --- NARROWBODY & REGIONAL ---
+  // --- AIRBUS ---
   {
     item: 1,
     model: "A220-100",
@@ -67,52 +67,6 @@ const planes = [
       "An extra-long range narrowbody designed to open up unprecedented direct trans-Atlantic city pairs. It features a permanent rear center fuel tank for extended reach.",
   },
   {
-    item: 7,
-    model: "737 MAX 7",
-    manufacturer: "Boeing",
-    price: 99700000,
-    category: ["Narrowbody"],
-    image:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_Company,_N7201S,_Boeing_737-7_MAX_(30416417438).jpg?width=800",
-    description:
-      "The smallest variant in Boeing's 737 MAX family, tailored for low-density, long-range regional routes. It offers improved efficiency over legacy 737 models.",
-  },
-  {
-    item: 8,
-    model: "737 MAX 8",
-    manufacturer: "Boeing",
-    price: 121600000,
-    category: ["Narrowbody"],
-    image:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/N8707P_Southwest_Boeing_737_MAX-8.jpg?width=800",
-    description:
-      "The core workhorse of Boeing's single-aisle fleet, competing directly with the A320neo. It incorporates advanced CFM LEAP-1B engines and distinctive split-tip winglets.",
-  },
-  {
-    item: 9,
-    model: "737 MAX 9",
-    manufacturer: "Boeing",
-    price: 128900000,
-    category: ["Narrowbody"],
-    image:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/United_Airlines_Boeing_737-9_MAX_AN5165061.jpg?width=800",
-    description:
-      "A larger-capacity variant of the 737 MAX series built for higher-density domestic routes. It provides airlines with increased seating capacity and lower per-seat operating costs.",
-  },
-  {
-    item: 10,
-    model: "737 MAX 10",
-    manufacturer: "Boeing",
-    price: 134900000,
-    category: ["Narrowbody"],
-    image:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/737_MAX_10_Roll_Out_(Nov_2019)_-_004.jpg?width=800",
-    description:
-      "The largest single-aisle aircraft produced by Boeing, stretching capacity to match competitive large narrowbodies. It features a modified semi-levered landing gear design.",
-  },
-
-  // --- WIDEBODY & LONG-HAUL ---
-  {
     item: 11,
     model: "A330-800neo",
     manufacturer: "Airbus",
@@ -155,6 +109,63 @@ const planes = [
       "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A350-1000_(35340566641).jpg?width=800",
     description:
       "The largest variant of the A350 family, offering high passenger capacity on global trunk routes. It features powerful Trent XWB-97 engines and a six-wheel main landing gear.",
+  },
+  {
+    item: 20,
+    model: "A330-200F",
+    manufacturer: "Airbus",
+    price: 241700000,
+    category: ["Cargo", "Freighter"],
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A330-200F.jpg?width=800",
+    description:
+      "A mid-size dedicated cargo aircraft derived from the proven A330-200 passenger platform. It features a versatile main-deck loading system for global freight logistics.",
+  },
+
+  // --- BOEING ---
+  {
+    item: 7,
+    model: "737 MAX 7",
+    manufacturer: "Boeing",
+    price: 99700000,
+    category: ["Narrowbody"],
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_Company,_N7201S,_Boeing_737-7_MAX_(30416417438).jpg?width=800",
+    description:
+      "The smallest variant in Boeing's 737 MAX family, tailored for low-density, long-range regional routes. It offers improved efficiency over legacy 737 models.",
+  },
+  {
+    item: 8,
+    model: "737 MAX 8",
+    manufacturer: "Boeing",
+    price: 121600000,
+    category: ["Narrowbody"],
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/N8707P_Southwest_Boeing_737_MAX-8.jpg?width=800",
+    description:
+      "The core workhorse of Boeing's single-aisle fleet, competing directly with the A320neo. It incorporates advanced CFM LEAP-1B engines and distinctive split-tip winglets.",
+  },
+  {
+    item: 9,
+    model: "737 MAX 9",
+    manufacturer: "Boeing",
+    price: 128900000,
+    category: ["Narrowbody"],
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/United_Airlines_Boeing_737-9_MAX_AN5165061.jpg?width=800",
+    description:
+      "A larger-capacity variant of the 737 MAX series built for higher-density domestic routes. It provides airlines with increased seating capacity and lower per-seat operating costs.",
+  },
+  {
+    item: 10,
+    model: "737 MAX 10",
+    manufacturer: "Boeing",
+    price: 134900000,
+    category: ["Narrowbody"],
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/737_MAX_10_Roll_Out_(Nov_2019)_-_004.jpg?width=800",
+    description:
+      "The largest single-aisle aircraft produced by Boeing, stretching capacity to match competitive large narrowbodies. It features a modified semi-levered landing gear design.",
   },
   {
     item: 15,
@@ -211,19 +222,6 @@ const planes = [
     description:
       "The world's largest twin-engine jetliner, featuring massive GE9X engines and a spacious cabin architecture. It serves as the flagship high-capacity long-haul aircraft for Boeing.",
   },
-
-  // --- FREIGHTER & CARGO ---
-  {
-    item: 20,
-    model: "A330-200F",
-    manufacturer: "Airbus",
-    price: 241700000,
-    category: ["Cargo", "Freighter"],
-    image:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A330-200F.jpg?width=800",
-    description:
-      "A mid-size dedicated cargo aircraft derived from the proven A330-200 passenger platform. It features a versatile main-deck loading system for global freight logistics.",
-  },
   {
     item: 21,
     model: "767-300F",
@@ -258,7 +256,6 @@ const planes = [
       "An advanced next-generation cargo variant based on the 777X architecture. It provides superior payload capacity and lower operating trip costs than preceding freighters.",
   },
 ];
-
 for (let i = 0; i < planes.length; i++) {
   console.log(planes[i]);
 }
@@ -312,22 +309,46 @@ function formatPrice(price) {
   return "$" + price.toLocaleString();
 }
 
-function inject(item) {
+let addedAirbusId = false;
+let addedBoeingId = false;
+
+for (let i = 0; i < planes.length; i++) {
+  let anchorId = "";
+
+  if (planes[i].manufacturer === "Airbus" && !addedAirbusId) {
+    anchorId = "airbus";
+    addedAirbusId = true;
+  } else if (planes[i].manufacturer === "Boeing" && !addedBoeingId) {
+    anchorId = "boeing";
+    addedBoeingId = true;
+  }
+
+  inject(planes[i], anchorId);
+}
+
+function inject(item, anchorId = "") {
   const container = document.querySelector(".container");
+  const idAttr = anchorId ? ` id="${anchorId}"` : "";
+
   container.insertAdjacentHTML(
     "beforeend",
-    `<div class="card">
-            <h2 class="card-header">${item.model}</h2>
-            <img src="${item.image}" alt="" />
-            <p class="desc">${item.description}</p>
-            <button>
-                <span>ADD TO CART</span>
-            </button>
-            <p class="price">${formatPrice(item.price)}</p>
-        </div>`,
+    `<div class="card"${idAttr}>
+      <h2 class="card-header">${item.model}</h2>
+      <img src="${item.image}" alt="${item.model}" />
+      <p class="desc">${item.description}</p>
+      <button>
+        <span>ADD TO CART</span>
+      </button>
+      <p class="price">${formatPrice(item.price)}</p>
+    </div>`,
   );
 }
 
 for (let i = 0; i < planes.length; i++) {
   inject(planes[i], i);
 }
+
+btn.addEventListener("click", function () {
+  x++;
+  rgb();
+});
